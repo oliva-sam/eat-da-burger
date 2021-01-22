@@ -1,0 +1,33 @@
+<header class ="jumbotron bg-primary">
+    <h1>Eat-Da-Burger</h1>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            {{#each burger}}
+            {{#unless this.devoured}}
+            {{this.burger_name}}
+            <button class="devourBtn">devour</button>
+            {{/unless}}
+            {{/each}}
+        </div>
+
+        <div class="col-md-6">
+            {{#each burger}}
+            {{#if this.devoured}}
+            {{this.burger_name}}
+            {{/if}}
+            {{/each}}
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <input id="userBurger" type="text">
+            <button id="burgerBtn">burger order</button>
+        </div>
+    </div>
+
+
+</div>
