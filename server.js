@@ -1,3 +1,4 @@
+// Dependencies 
 const express = require("express");
 const exphbs = require("express-handlebars");
 const routes = require("./controllers/burgers_controllers")
@@ -12,10 +13,11 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-//
+// Set up handlebars
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
+// express can now use the routes
 app.use(routes)
 
 // Listener
