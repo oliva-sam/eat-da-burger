@@ -19,7 +19,7 @@
             {{#each burger}}
             {{#if this.devoured}}
             {{this.burger_name}}
-            
+            <button class="deleteBtn" data-id="{{this.id}}">delete</button>
             {{/if}}
             {{/each}}
         </div>
