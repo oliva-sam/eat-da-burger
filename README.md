@@ -1,2 +1,17 @@
-# eat-da-burger
-UTSA Coding Bootcamp Homework 13 - Node Express Handlebars
+# Eat Da Burger List Application
+
+## Description
+Users are able to enter any burger (technically whatever text) they would like to eat and it will generate into a list of burgers to eat. Users are able to click "devour" to "eat" the burger then the burger will switch to the devoured burgers list. 
+
+## Installation & Frameworks
+* node.js
+* mysql
+* express
+* express-handlebars
+
+## Mock Demo
+[Demo]
+
+## Contributors
+Samantha Oliva
+[GitHub profile](https://github.com/oliva-sam)
