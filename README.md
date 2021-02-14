@@ -12,6 +12,8 @@ Users are able to enter any burger (technically whatever text) they would like t
 ## Mock Demo
 [Demo](https://drive.google.com/file/d/1i82vJ6Bi29Hqiaz_loIUXz_kcBZGwQwI/view)
 
+### [Live Link](https://ancient-plains-35245.herokuapp.com/)
+
 ## Contributors
 Samantha Oliva
 [GitHub profile](https://github.com/oliva-sam)
