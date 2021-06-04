@@ -1,5 +1,5 @@
 // Import MySQL connection.
-const { connect } = require("../config/connection.js");
+//const  connect  = require("../config/connection.js");
 var connection = require("../config/connection.js");
 
 function printQuestionMarks(num) {
