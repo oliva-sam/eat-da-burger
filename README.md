@@ -9,8 +9,8 @@ Users are able to enter any burger (technically whatever text) they would like t
 * express
 * express-handlebars
 
-##### Mock-Example
-![example-pic](./public/assets/img/eat-da-burger-img.png) 
+#### Mock-Example
+![example-pic](./public/eat-da-burger-img.png) 
 
 ### [Live Link](https://ancient-plains-35245.herokuapp.com/)
 
